@@ -1,0 +1,62 @@
+
+section {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /*flex: 0 1 auto;
+    flex-wrap: wrap;*/
+
+	& .start {
+		justify-content: flex-start;
+	}
+
+    & .center {
+		justify-content: center;
+	}
+
+    & .end {
+		justify-content: flex-end;
+	}
+
+    & .even {
+		justify-content: space-evenly;
+	}
+
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+
+
+
+.padding {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.padding:nth-of-type(even) {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+ 
+
+
+
+
+
+
+    }
+}

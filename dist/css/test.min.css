@@ -1,0 +1,234 @@
+.dev {
+  background: green;
+}
+
+.dev2 {
+  background: blue;
+}
+
+.ca-section {
+  font-family: Helvetica;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 0 -0.5rem;
+}
+
+.column {
+  padding: 0 0.5rem;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+     -moz-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+[class*="width"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+     -moz-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 0 0.5rem;
+}
+
+.width-1 {
+  -webkit-flex-basis: 8.3333333333%;
+      -ms-flex-preferred-size: 8.3333333333%;
+          flex-basis: 8.3333333333%;
+  max-width: 8.3333333333%;
+}
+
+.width-2 {
+  -webkit-flex-basis: 16.6666666667%;
+      -ms-flex-preferred-size: 16.6666666667%;
+          flex-basis: 16.6666666667%;
+  max-width: 16.6666666667%;
+}
+
+.width-3 {
+  -webkit-flex-basis: 25%;
+      -ms-flex-preferred-size: 25%;
+          flex-basis: 25%;
+  max-width: 25%;
+}
+
+.width-4 {
+  -webkit-flex-basis: 33.3333333333%;
+      -ms-flex-preferred-size: 33.3333333333%;
+          flex-basis: 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+.width-5 {
+  max-width: 41.6666666667%;
+}
+
+.width-6 {
+  -webkit-flex-basis: 50%;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+  max-width: 50%;
+}
+
+.width-7 {
+  -webkit-flex-basis: 58.3333333333%;
+      -ms-flex-preferred-size: 58.3333333333%;
+          flex-basis: 58.3333333333%;
+  max-width: 58.3333333333%;
+}
+
+.width-8 {
+  -webkit-flex-basis: 66.6666666667%;
+      -ms-flex-preferred-size: 66.6666666667%;
+          flex-basis: 66.6666666667%;
+  max-width: 66.6666666667%;
+}
+
+.width-9 {
+  -webkit-flex-basis: 75%;
+      -ms-flex-preferred-size: 75%;
+          flex-basis: 75%;
+  max-width: 75%;
+}
+
+.width-10 {
+  -webkit-flex-basis: 83.3333333333%;
+      -ms-flex-preferred-size: 83.3333333333%;
+          flex-basis: 83.3333333333%;
+  max-width: 83.3333333333%;
+}
+
+.width-11 {
+  -webkit-flex-basis: 91.6666666667%;
+      -ms-flex-preferred-size: 91.6666666667%;
+          flex-basis: 91.6666666667%;
+  max-width: 91.6666666667%;
+}
+
+.width-12 {
+  -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+  max-width: 100%;
+}
+
+.column-offset-1 {
+  margin-left: 8.3333333333%;
+}
+
+.column-offset-2 {
+  margin-left: 16.6666666667%;
+}
+
+.column-offset-3 {
+  margin-left: 25%;
+}
+
+.column-offset-4 {
+  margin-left: 33.3333333333%;
+}
+
+.column-offset-5 {
+  margin-left: 41.6666666667%;
+}
+
+.column-offset-6 {
+  margin-left: 50%;
+}
+
+.column-offset-7 {
+  margin-left: 58.3333333333%;
+}
+
+.column-offset-8 {
+  margin-left: 66.6666666667%;
+}
+
+.column-offset-9 {
+  margin-left: 75%;
+}
+
+.column-offset-10 {
+  margin-left: 83.3333333333%;
+}
+
+.column-offset-11 {
+  margin-left: 91.6666666667%;
+}
+
+.column-offset-12 {
+  margin-left: 100%;
+}
+
+/* Input */
+.InputAddOn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+.InputAddOn-field {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+     -moz-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.InputAddOn-field:not(:first-child) {
+  border-left: 0;
+}
+
+.InputAddOn-field:not(:last-child) {
+  border-right: 0;
+}
+
+.InputAddOn-item {
+  background-color: rgba(147, 128, 108, 0.1);
+  color: #666666;
+  font: inherit;
+  font-weight: normal;
+}
+
+.InputAddOn-field,
+.InputAddOn-item {
+  border: 1px solid rgba(147, 128, 108, 0.25);
+  padding: 0.5em 0.75em;
+}
+
+.InputAddOn-field:first-child,
+.InputAddOn-item:first-child {
+  border-radius: 2px 0 0 2px;
+}
+
+.InputAddOn-field:last-child,
+.InputAddOn-item:last-child {
+  border-radius: 0 2px 2px 0;
+}
